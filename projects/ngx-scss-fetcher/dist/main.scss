@@ -1,6 +1,0 @@
-
-@mixin scss-fetcher($name, $value) {
-    meta.fetcher-#{$name} {
-        font-family: '/' + $value + '/';
-    }
-}
