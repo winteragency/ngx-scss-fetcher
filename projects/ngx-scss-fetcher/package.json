@@ -1,6 +1,30 @@
 {
   "name": "ngx-scss-fetcher",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "This is a simple Angular 7+ service that gives you access to SCSS-variables in TypeScript.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/winteragency/ngx-scss-fetcher"
+  },
+  "bugs": {
+    "url": "https://github.com/winteragency/ngx-scss-fetcher/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Winter",
+    "email": "info@winteragency.se",
+    "url": "https://winteragency.se"
+  },
+  "keywords": [
+    "angular",
+    "ngx",
+    "fetcher",
+    "scss",
+    "variables",
+    "typescript",
+    "service"
+  ],
+  "homepage": "https://github.com/winteragency/ngx-scss-fetcher",
   "peerDependencies": {
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0"
