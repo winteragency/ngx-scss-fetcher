@@ -1,6 +1,6 @@
 # ngx-scss-fetcher
 
-[![Latest Stable Version](https://img.shields.io/npm/v/ngx-scss-fetcher.svg)](https://www.npmjs.com/package/ngx-scss-fetcher) [![Total Downloads](https://img.shields.io/npm/dt/ngx-scss-fetcher.svg)](https://npm-stat.com/charts.html?package=ngx-scss-fetcher) [![License](https://img.shields.io/github/license/winteragency/ngx-scss-fetcher.svg)](https://github.com/winteragency/ngx-scss-fetcher) [![Made by WINTER](https://img.shields.io/badge/made%20by-%E2%9D%84%20WINTER-blue.svg)](https://winteragency.se)
+[![Latest Stable Version](https://img.shields.io/npm/v/@winteragency/ngx-scss-fetcher.svg)](https://www.npmjs.com/package/ngx-scss-fetcher) [![Total Downloads](https://img.shields.io/npm/dt/@winteragency/ngx-scss-fetcher.svg)](https://npm-stat.com/charts.html?package=@winteragency/ngx-scss-fetcher) [![License](https://img.shields.io/github/license/winteragency/ngx-scss-fetcher.svg)](https://github.com/winteragency/ngx-scss-fetcher) [![Made by Winter](https://img.shields.io/badge/made%20by-%E2%9D%84%20Winter-blue.svg)](https://winteragency.se)
 
 This is a simple Angular 7+ service that gives you access to SCSS-variables in TypeScript.
 
@@ -8,7 +8,7 @@ This is a simple Angular 7+ service that gives you access to SCSS-variables in T
 
 Add this library as a dependency to your project:
 
-`npm install ngx-scss-fetcher`
+`npm install @winteragency/ngx-scss-fetcher`
 
 ## Usage
 
