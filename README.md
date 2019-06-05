@@ -16,7 +16,7 @@ First import the service in your components:
 
 ```typescript
 import { Component } from '@angular/core';
-import { ScssFetcherService } from 'ngx-scss-fetcher';
+import { ScssFetcherService } from '@winteragency/ngx-scss-fetcher';
 
 @Component({
     selector: 'app-component',
@@ -35,7 +35,7 @@ Then add the following in styles.scss
 
 ```scss
 
-@import '~ngx-scss-fetcher/main.scss'
+@import '~@winteragency/ngx-scss-fetcher/main.scss'
 
 $color: #f0f0f0;
 
