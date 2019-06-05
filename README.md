@@ -1,4 +1,4 @@
-# ngx-scss-fetcher
+# ngx-scss-fetcher 🔗
 
 [![Latest Stable Version](https://img.shields.io/npm/v/@winteragency/ngx-scss-fetcher.svg)](https://www.npmjs.com/package/ngx-scss-fetcher) [![Total Downloads](https://img.shields.io/npm/dt/@winteragency/ngx-scss-fetcher.svg)](https://npm-stat.com/charts.html?package=@winteragency/ngx-scss-fetcher) [![License](https://img.shields.io/github/license/winteragency/ngx-scss-fetcher.svg)](https://github.com/winteragency/ngx-scss-fetcher) [![Made by Winter](https://img.shields.io/badge/made%20by-%E2%9D%84%20Winter-blue.svg)](https://winteragency.se)
 
@@ -24,7 +24,7 @@ import { ScssFetcherService } from '@winteragency/ngx-scss-fetcher';
 })
 export class AppComponent {
 
-    private value: string = fetcher.get('testColor');
+    private value: string = this.fetcher.get('testColor');
 
     constructor(private fetcher: ScssFetcherService) {}
 
@@ -35,15 +35,11 @@ Then add the following in styles.scss
 
 ```scss
 
-@import '~@winteragency/ngx-scss-fetcher/main.scss'
+@import '~@winteragency/ngx-scss-fetcher/main';
 
-$color: #f0f0f0;
+$color: #b4d455;
 
 @include scss-fetcher('testColor', $color);
-
-meta.fetcher-testColor {
-    font-family: '/' + $color + '/';
-}
 ```
 
 ## Methods
