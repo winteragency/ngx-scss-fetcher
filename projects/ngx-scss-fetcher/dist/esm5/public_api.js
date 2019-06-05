@@ -1,0 +1,5 @@
+/*
+ * Public API Surface of ngx-scss-fetcher
+ */
+export * from './lib/ngx-scss-fetcher.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1zY3NzLWZldGNoZXIvIiwic291cmNlcyI6WyJwdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxnQ0FBZ0MsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXNjc3MtZmV0Y2hlclxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1zY3NzLWZldGNoZXIuc2VydmljZSc7Il19

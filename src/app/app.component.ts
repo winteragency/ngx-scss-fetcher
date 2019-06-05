@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScssFetcherService } from 'ngx-scss-fetcher';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngx-scss-fetcher-app';
+  
+  value = this.fetcher.get('testColor');
+
+  constructor(private fetcher: ScssFetcherService) {}
+
 }

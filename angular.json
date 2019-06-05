@@ -118,6 +118,41 @@
           }
         }
       }
+    },
+    "ngx-scss-fetcher": {
+      "projectType": "library",
+      "root": "projects/ngx-scss-fetcher",
+      "sourceRoot": "projects/ngx-scss-fetcher/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-scss-fetcher/tsconfig.lib.json",
+            "project": "projects/ngx-scss-fetcher/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-scss-fetcher/src/test.ts",
+            "tsConfig": "projects/ngx-scss-fetcher/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-scss-fetcher/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-scss-fetcher/tsconfig.lib.json",
+              "projects/ngx-scss-fetcher/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "ngx-scss-fetcher-app"
 }

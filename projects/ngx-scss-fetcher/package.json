@@ -1,0 +1,16 @@
+{
+  "name": "ngx-scss-fetcher",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "ng-packagr": "^5.2.0",
+    "ts-node": "^8.2.0"
+  },
+  "scripts": {
+    "build": "ng-packagr -p package.json",
+    "postbuild": "ts-node ./post-build.ts"
+  }
+}

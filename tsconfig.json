@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-scss-fetcher": [
+        "dist/ngx-scss-fetcher"
+      ],
+      "ngx-scss-fetcher/*": [
+        "dist/ngx-scss-fetcher/*"
+      ]
+    }
   }
 }
